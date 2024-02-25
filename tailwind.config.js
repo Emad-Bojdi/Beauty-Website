@@ -8,7 +8,10 @@ export default {
     colors:{
       color1:'#5C8692',
       color2:'#1E2C30',
-      color3:'#7A9CA5'
+      color3:'#7A9CA5',
+      color4:"#EBF3F5",
+      white:"#fff",
+
     },
     fontFamily:{
       playfair:["PlayfairDisplay","sans-serif"],

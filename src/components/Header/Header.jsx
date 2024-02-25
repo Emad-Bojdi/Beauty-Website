@@ -5,7 +5,7 @@ import Navbar from "./Navbar/Navbar";
 const Header = () => {
     return(
         <>
-        <div className="">
+        <div className="w-full h-auto flex flex-row">
             <Logo/>
             <Navbar/>
         </div>

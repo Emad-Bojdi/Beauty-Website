@@ -7,7 +7,7 @@ const Logo = () => {
       <div className="w-5/12 h-auto flex p-7">
         <div className="w-3/5 h-auto flex flex-row justify-center">
           <div className="w-3/4 h-auto flex flex-row items-center">
-            <PiFeatherLight className="text-color3 font-bold" />
+            <PiFeatherLight className=" text-color3 font-bold w-4 h-4" />
             <p className="font-playfair font-bold w-7 pl-2">Beautyness</p>
           </div>
           <div className="w-full h-auto flex flex-row items-center">

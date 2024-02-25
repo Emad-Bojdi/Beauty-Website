@@ -1,13 +1,12 @@
-import {MdKeyboardArrowDown} from "react-icons/md";
 
 
 
 const MenuItems = [{
     title:'Home',
-    url:'/'
+    url:'/',
 },
 {
-    title:'Pages',
+    title:`Pages`,
     url:'/pages',
     submenu: [{
         title: 'Team',
@@ -38,16 +37,20 @@ const MenuItems = [{
 },
 {
     title:'About',
-    url:'/about'
+    url:'/about',
+    
 },
 {
     title:'Services',
-    url:'/services'
+    url:'/services',
+    
 },
 {
     title:'Contact',
-    url:'/contact'
-}
+    url:'/contact',
+    
+},
+
 ]
 
 export default MenuItems;
