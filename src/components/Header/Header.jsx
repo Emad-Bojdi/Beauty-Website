@@ -1,3 +1,4 @@
+import Banner from "./Banner/Banner";
 import Logo from "./Logo/Logo";
 import Navbar from "./Navbar/Navbar";
 
@@ -9,6 +10,7 @@ const Header = () => {
             <Logo/>
             <Navbar/>
         </div>
+        <Banner/>
         </>
     )
 }
