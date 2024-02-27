@@ -11,6 +11,7 @@ export default {
       color3:'#7A9CA5',
       color4:"#EBF3F5",
       color5:"#555555",
+      color6:"#2A444B",
       white:"#fff",
 
     },
