@@ -1,5 +1,8 @@
+/* eslint-disable no-undef */
 /** @type {import('tailwindcss').Config} */
-export default {
+// eslint-disable-next-line no-undef
+const withMT = require("@material-tailwind/react/utils/withMT");
+module.exports = withMT( {
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
@@ -12,6 +15,7 @@ export default {
       color4:"#EBF3F5",
       color5:"#555555",
       color6:"#2A444B",
+      color7:"#EDF5F7",
       white:"#fff",
 
     },
@@ -37,5 +41,5 @@ export default {
     },
   },
   plugins: [],
-}
+})
 

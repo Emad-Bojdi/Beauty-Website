@@ -30,7 +30,7 @@ const AboutUs = () => {
               <SubContent src={Icon2} title="100% Genuine" style={"w-1/3"} />
             </div>
           </div>
-          <div className="w-1/3 h-full flex flex-col items-center justify-center ml-4">
+          <div className="w-2/5 h-full flex flex-col items-center justify-center ml-4">
             <div className="w-7/12 h-auto relative">
               <img src={Background} alt="" className="" />
               <div className="absolute top-10 right-10 w-full h-auto">
