@@ -16,6 +16,7 @@ module.exports = withMT( {
       color5:"#555555",
       color6:"#2A444B",
       color7:"#EDF5F7",
+      color8:"#95BFCB",
       white:"#fff",
 
     },
