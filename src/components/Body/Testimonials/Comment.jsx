@@ -12,12 +12,12 @@ const Comment = ({src,name,country}) => {
         </div>
         <div className="w-full h-auto flex bg-color2 flex-row justify-center ">
           <div className="w-4/5 h-auto flex flex-row justify-center items-center">
-            <div className="w-1/5  flex flex-col item-center ">
-              <img src={src} alt="" className="w-4/5 h-1/5 my-3 border-2 border-[#fff]" />
+            <div className="w-1/5 flex flex-col item-center ">
+              <img src={src} alt="" className="w-full h-auto my-3 border-2 border-[#fff]" />
             </div>
-            <div className="w-3/5 flex flex-col items-start pl-3">
-              <Rating/>
-              <h1 className="font-playfair font-bold text-[#fff] text-[18px] leading-32.4">{name}</h1>
+            <div className="w-3/5  flex flex-col items-start pl-3">
+              <Rating className="" value={4} readonly unratedColor="white" ratedColor="white"/>
+              <h1 className="font-playfair font-bold text-[#fff] text-[18px] leading-17.5">{name}</h1>
               <p className="font-manrope font-semibold text-[14px] leading-23.17 text-[#fff]">{country}</p>
             </div>
             <div className="w-1/5">
